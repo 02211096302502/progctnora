@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <title>اسلایدر بنر شمع‌سازی</title>
+  <style>
+    body {
+      margin: 0;
+      background: #fff8f0;
+      font-family: sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 30px;
+    }
+
+    .slider-container {
+      width: 80%;
+      max-width: 700px;
+      position: relative;
+      overflow: hidden;
+      border-radius: 20px;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+      background: #fdf6ee;
+    }
+
+    .slides {
+      display: flex;
+      width: 300%;
+      transition: transform 0.5s ease-in-out;
+    }
+
+    .slide {
+      width: 100%;
+      flex-shrink: 0;
+      height: 400px;
+      background-size: cover;
+      background-position: center;
+    }
+
+    /* نمونه عکس‌های نمایشی */
+    .slide1 { background-image: url('https://via.placeholder.com/700x400/FFEBD6/8C5E3C?text=عکس+۱'); }
+    .slide2 { background-image: url('https://via.placeholder.com/700x400/FDE6D5/8C5E3C?text=عکس+۲'); }
+    .slide3 { background-image: url('https://via.placeholder.com/700x400/FADACF/8C5E3C?text=عکس+۳'); }
+
+    .nav-buttons {
+      position: absolute;
+      width: 100%;
+      top: 50%;
+      display: flex;
+      justify-content: space-between;
+      transform: translateY(-50%);
+      padding: 0 15px;
+    }
+
+    .nav-buttons button {
+      background-color: rgba(255, 255, 255, 0.7);
+      border: none;
+      padding: 10px;
+      border-radius: 50%;
+      cursor: pointer;
+      font-size: 18px;
+      transition: background 0.3s;
+    }
+
+    .nav-buttons button:hover {
+      background-color: rgba(255, 255, 255, 1);
+    }
+  </style>
+</head>
+<body>
+
+  <h2 style="color: #8c5e3c;">اسلایدر بنر شمع‌سازی</h2>
+
+  <div class="slider-container">
+    <div class="slides" id="slides">
+      <div class="slide slide1"></div>
+      <div class="slide slide2"></div>
+      <div class="slide slide3"></div>
+    </div>
+    <div class="nav-buttons">
+      <button onclick="prevSlide()">‹</button>
+      <button onclick="nextSlide()">›</button>
+    </div>
+  </div>
+
+  <script>
+    let currentSlide = 0;
+    const slides = document.getElementById('slides');
+    const totalSlides = 3;
+
+    function updateSlide() {
+      slides.style.transform = 'translateX(' + (-currentSlide * 100) + '%)';
+    }
+
+    function nextSlide() {
+      currentSlide = (currentSlide + 1) % totalSlides;
+      updateSlide();
+    }
+
+    function prevSlide() {
+      currentSlide = (currentSlide - 1 + totalSlides) % totalSlides;
+      updateSlide();
+    }
+
+    // اسلاید خودکار هر 5 ثانیه
+    setInterval(nextSlide, 5000);
+  </script>
+
+</body>
+</html>
