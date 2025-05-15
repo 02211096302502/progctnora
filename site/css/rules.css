@@ -1,0 +1,93 @@
+.md{
+    color: #862C92;
+    text-align: center;
+    padding: 12px;
+}
+.mb-4{
+    text-align: right;
+margin: 15px;
+padding:0px;
+}
+.a{
+    text-align: right;
+}
+    body {
+  font-family: 'Vazirmatn', sans-serif;
+  background: #fafafa;
+}
+footer {
+  background-color: #ffffff;
+  padding: 2rem 1rem 1rem;
+  margin-top: 60px;
+  box-shadow: 0 -1px 8px rgba(0, 0, 0, 0.04);
+}
+.footer-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around; /* فاصله یکنواخت */
+  align-items: flex-start;
+  gap: 0.5rem; /* خیلی نزدیک‌تر */
+  flex-wrap: wrap;
+}
+.footer-section {
+  flex: 1 1 30%;
+  min-width: 180px;
+}
+footer h6 {
+  color: #B762B7 ;
+  font-weight: 700;
+  margin-bottom: 0.5rem; /* کمتر */
+  font-size: 1rem;
+  text-align: center;
+   font-family: 'Vazirmatn', sans-serif;
+}
+footer p,
+footer li,
+footer a {
+  font-size: 0.85rem;
+  color:black;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+footer a {
+  text-decoration: none;
+  transition: color 0.3s;
+}
+footer a:hover {
+  color: #6d28d9;
+}
+footer ul {
+  padding: 0;
+  list-style: none;
+  margin: 0;
+}
+footer ul li {
+  margin-bottom: 0.3rem; /* فاصله‌ی خیلی کم بین آیتم‌ها */
+}
+.social-icons {
+  margin-top: 0.5rem;
+  text-align: center;
+}
+.social-icons a {
+  font-size: 1.4rem;
+  color: black;
+  margin: 0 4px;
+  transition: 0.3s;
+}
+.social-icons a:hover {
+  color: #4c1d95;
+  transform: translateY(-2px);
+}
+footer hr {
+  margin: 1.5rem auto 1rem;
+  width: 60px;
+  border-top: 2px solid #eee;
+}
+footer .copyright {
+  text-align: center;
+  color: #aaa;
+  font-size: 0.8rem;
+  margin-top: 0.5rem;
+}

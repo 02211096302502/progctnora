@@ -1,0 +1,18 @@
+.custom-button {
+    background-color: #ffb3d9; /* رنگ صورتی ملایم */
+    color: white; /* رنگ متن سفید */
+    border: none; /* بدون حاشیه */
+    padding: 10px 20px; /* حاشیه داخلی */
+    border-radius: 5px; /* گوشه‌های گرد */
+    cursor: pointer; /* نشانگر موس به شکل دست */
+    transition: background-color 0.3s ease; /* انیمیشن تغییر رنگ */
+}
+
+.custom-button:hover {
+    background-color: #ff80b3; /* رنگ صورتی پررنگ‌تر هنگام هاور */
+}
+
+.custom-button:active {
+    background-color: #ff4d94; /* رنگ صورتی پررنگ‌تر هنگام کلیک */
+}
+
