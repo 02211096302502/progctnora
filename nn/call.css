@@ -1,0 +1,63 @@
+body {
+    font-family: 'Vazir', sans-serif;
+}
+
+.about-us, .history, .team, .testimonials {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.card {
+    border: none;
+    width: 250px;
+    border: 1px solid #862C92; /* رنگ حاشیه */
+    border-radius: 12px; /* گوشه‌های گرد */
+}
+.card-img-top{
+    width: 150px;
+}
+.testimonial-card {
+    background-color: #F0E3F6; /* رنگ پس‌زمینه */
+    border: 1px solid #862C92; /* رنگ حاشیه */
+    border-radius: 8px; /* گوشه‌های گرد */
+    padding: 20px; /* فاصله داخلی */
+    margin-bottom: 20px; /* فاصله پایین */
+    text-align: center; /* متن وسط‌چین */
+}
+
+
+
+.faq-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    width: 400px;
+}
+.faq-item {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+    cursor: pointer;
+}
+.faq-item:last-child {
+    border-bottom: none;
+}
+.faq-item h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+    display: inline-block; /* برای تراز کردن متن */
+}
+.faq-item .answer {
+    display: none; /* مخفی بودن پیش‌فرض */
+    padding-top: 10px;
+    color: #555;
+    margin-top: 5px; /* فاصله از سوال */
+}
+.toggle-icon {
+    margin-left: 10px; /* فاصله آیکون از متن سوال */
+    font-size: 18px;
+    color: #6a11cb;
+    vertical-align: middle; /* تراز عمودی آیکون */
+}

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تماس با ما</title>
+    <!-- لینک به CSS Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            background-color: #f4f4f4;
+            font-family: 'Arial', sans-serif;
+        }
+        .footer {
+            background: #35424a;
+            color: #ffffff;
+        }
+        .contact-section {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 40px;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .contact-image img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .contact-info, .contact-form {
+            flex: 1;
+            margin: 0 20px;
+        }
+        .card-title {
+            text-align: right;
+        }
+        .im{
+            width: 400px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center mb-4">تماس با ما</h1>
+
+        <div class="contact-section" style="background-color: #E5D1EE;">
+            <div class="contact-image">
+                <img src="immg/4.jpg" alt="Contact Us" class="im">
+            </div>
+
+
+            <div class="contact-info card flex-fill" style="border: 0px;background-color: #E5D1EE;">
+                <div class="card-body" style="text-align: right;  border: 0px;">
+                    
+                    <h2 class="card-title" style="font-size: 36px; color: #82218f;">اطلاعات تماس</h2>
+                    <p><i class="fas fa-phone"></i> تلفن: 123456789</p>
+                    <p><i class="fas fa-envelope"></i> ایمیل: info@halochin.ir</p>
+                    <p><i class="fas fa-map-marker-alt"></i> آدرس: تهران، خیابان اصلی، پلاک 1</p>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="contact-section" style="background-color: #E5D1EE;">
+            <div class="contact-form card flex-fill">
+
+                
+                <div class="card-body" style="background-color: #E5D1EE; text-align: right; ">
+                    <h2 class="card-title" style="color: #82218f; font-size: 36px;">فرم تماس</h2>
+                    <form>
+                        <div class="form-group">
+                            <label for="name" style="font-size: 19px;">:نام</label>
+                            <input type="text" class="form-control" id="name" name="name" required style="border-radius: 10px;">
+                        </div>
+                        <div class="form-group">
+                            <label for="email"style="font-size: 19px;">:ایمیل</label>
+                            <input type="email" class="form-control" id="email" name="email" required style="border-radius: 10px;">
+                        </div>
+                        <div class="form-group">
+                            <label for="message" style="font-size: 19px;">:پیام</label>
+                            <textarea class="form-control" id="message" name="message" rows="4" required style="border-radius: 10px;"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" style="border-radius: 10px; background-color: #B762B7; border: 0px;">ارسال</button>
+                    </form>
+                </div>
+                
+            </div>
+
+            <div class="contact-image">
+                <img src="immg/71.jpg" alt="Contact Us">
+            </div>
+        </div>
+
+        <footer class="footer text-center py-3 mt-4">
+            <p>تمامی حقوق محفوظ است &copy; 2023</p>
+        </footer>
+    </div>
+
+    <!-- لینک به JS Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
