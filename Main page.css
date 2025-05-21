@@ -1,0 +1,233 @@
+body {
+  font-family: 'Vazirmatn', sans-serif;
+  background: #fafafa;
+}
+footer {
+  background-color: #ffffff;
+  padding: 2rem 1rem 1rem;
+  margin-top: 60px;
+  box-shadow: 0 -1px 8px rgba(0, 0, 0, 0.04);
+}
+.footer-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around; /* فاصله یکنواخت */
+  align-items: flex-start;
+  gap: 0.5rem; /* خیلی نزدیک‌تر */
+  flex-wrap: wrap;
+}
+.footer-section {
+  flex: 1 1 30%;
+  min-width: 180px;
+}
+footer h6 {
+  color: #6d28d9;
+  font-weight: 700;
+  margin-bottom: 0.5rem; /* کمتر */
+  font-size: 1rem;
+  text-align: center;
+}
+footer p,
+footer li,
+footer a {
+  font-size: 0.85rem;
+  color: #555;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+footer a {
+  text-decoration: none;
+  transition: color 0.3s;
+}
+footer a:hover {
+  color: #6d28d9;
+}
+footer ul {
+  padding: 0;
+  list-style: none;
+  margin: 0;
+}
+footer ul li {
+  margin-bottom: 0.3rem; /* فاصله‌ی خیلی کم بین آیتم‌ها */
+}
+.social-icons {
+  margin-top: 0.5rem;
+  text-align: center;
+}
+.social-icons a {
+  font-size: 1.4rem;
+  color: #6d28d9;
+  margin: 0 4px;
+  transition: 0.3s;
+}
+.social-icons a:hover {
+  color: #4c1d95;
+  transform: translateY(-2px);
+}
+footer hr {
+  margin: 1.5rem auto 1rem;
+  width: 60px;
+  border-top: 2px solid #eee;
+}
+footer .copyright {
+  text-align: center;
+  color: #aaa;
+  font-size: 0.8rem;
+  margin-top: 0.5rem;
+}
+body {
+  background: #f9f9f9; /* پس زمینه بسیار روشن */
+  margin: 0;
+  padding: 0;
+}
+.bestsellers-section {
+  padding: 60px 0;
+}
+.section-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #2193fd;
+  margin-bottom: 50px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+.product-card {
+  background: #ffffff; /* قاب سفید */
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); /* سایه دور قاب */
+  overflow: hidden;
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.product-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+}
+.product-img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-bottom: 1px solid #eee;
+}
+.product-info {
+  padding: 20px;
+  flex-grow: 1;
+  text-align: right; /* متن راست چین */
+}
+.product-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.product-description {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 20px;
+}
+.btn-primary {
+  background-color: #2193fd;
+  border: none;
+  font-weight: bold;
+}
+.btn-primary:hover {
+  background-color: #1479d0;
+}
+body {
+  font-family: 'Vazirmatn', sans-serif;
+  background-color: #fdfdfd;
+  color: #333;
+  line-height: 1.7;
+}
+header {
+  background: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+.navbar {
+  background: transparent;
+}
+.navbar-nav .nav-link {
+  color: #555;
+  font-weight: 600;
+  padding: 0.6rem 1rem;
+  transition: all 0.3s ease;
+  border-radius: 0.5rem;
+}
+.navbar-nav .nav-link:hover {
+  background-color: #f1f1f1;
+  color: #6d28d9;
+}
+.input-group {
+  background: #f7f7f7;
+  border-radius: 2rem;
+  overflow: hidden;
+  transition: 0.3s;
+}
+.input-group input {
+  border: none;
+  background: transparent;
+  font-size: 0.95rem;
+  padding: 0.8rem 1rem;
+}
+.input-group input:focus {
+  box-shadow: none;
+}
+.input-group-text {
+  border: none;
+  background: transparent;
+  color: #6d28d9;
+  font-size: 1.2rem;
+}
+.btn-primary-custom, .btn-outline-primary-custom {
+  border-radius: 2rem;
+  font-weight: 600;
+  padding: 0.5rem 1.2rem;
+  font-size: 0.95rem;
+  transition: all 0.3s ease;
+}
+.btn-primary-custom {
+  background-color: #6d28d9;
+  color: white;
+  border: none;
+}
+.btn-primary-custom:hover {
+  background-color: #5b21b6;
+}
+.btn-outline-primary-custom {
+  background: transparent;
+  color: #6d28d9;
+  border: 1px solid #d6d3e8;
+}
+.btn-outline-primary-custom:hover {
+  background: #f1effa;
+  color: #5b21b6;
+}
+.dropdown-menu {
+  border-radius: 1rem;
+  border: 1px solid #eee;
+  background: #ffffff;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.06);
+  animation: fadeDropdown 0.3s ease;
+}
+@keyframes fadeDropdown {
+  from {opacity: 0; transform: translateY(8px);}
+  to {opacity: 1; transform: translateY(0);}
+}
+.dropdown-item {
+  color: #555;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+.dropdown-item:hover {
+  background-color: #f1f1f1;
+  color: #6d28d9;
+  border-radius: 0.5rem;
+}
+img.logo {
+  height: 58px;
+  border-radius: 50%;
+  object-fit: cover;
+}
