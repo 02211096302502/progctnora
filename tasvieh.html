@@ -1,0 +1,196 @@
+
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>تسویه حساب</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.rtl.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <!-- فایل CSS سفارشی -->
+   <link rel="stylesheet" href="css/tasvieh.css">
+</head>
+<body class="bg-light" style="background-color: #f8f9fa;">
+  <nav class="navbar bg-body-tertiary" style="padding: 0px;">
+  <div class="container-fluid d-flex justify-content-between align-items-center" style="direction: rtl; background-color:white">
+    <a class="navbar-brand" href="Main_ page.html">
+      <img src="img/31b10b0ac5acdbeafd586fc02c25ecbf.png" alt="Logo" width="65px" height="65px" class="d-inline-block" style="border-radius: 50px;color: #862C92;">نورا</a>
+    <div class="mx-auto" style="width: 50%; display: flex; justify-content:center;">
+      <form class="d-flex" role="search" style="width: 100%; max-width:400px;">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" style="border-radius: 50px; border: 2px solid #F0E3F6;">
+        <button class="btn btn-outline-success" type="submit" 
+          style="margin:3px;width:125px;padding:8px;border-radius: 50px;background-color:#F0E3F6 ;color: black;border: 2px solid #F0E3F6 ;">
+          جستجو
+        </button>
+      </form>
+    </div>
+     <a href="enrol.html" class="text-dark" title="ثبت‌ نام">
+        <i class="bi bi-person-fill" style="font-size:2rem;color:black;padding: 20px;"></i>
+      </a>
+      <a href="sabad.html" class="text-dark" title="سبد خرید">
+        <i class="bi bi-cart-fill" style="font-size:2rem;color:black;"></i>
+      </a>
+  </div>
+</nav>
+  <nav class="navbar navbar-expand-lg " style="direction:rtl;background-color: #F0E3F6 ;">
+    <div class="container-fluid" style="background-color: #F0E3F6 ;">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown" style="background-color: #F0E3F6;">
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle active" href="product - Copy.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              محصولات
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="product - Copy.html">شمع </a></li>
+              <li><a class="dropdown-item" href="#">جاشمعی</a></li>
+              <li><a class="dropdown-item" href="#">گیفت</a></li>
+              <li><a class="dropdown-item" href="#">عود</a></li>
+              <li><a class="dropdown-item" href="#">جاعودی</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="Main_ page.html">صفحه اصلی</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="rules.html">حریم خصوصی</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="about.html">درباره ما</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">تماس با ما</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="blogmain.html">وبلاگ</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+<div class="container py-5" >
+  <h2 class="mb-4 text-center" style="color: #862C92;">صفحه تسویه حساب</h2>
+
+  <div class="row g-4" >
+    <!-- فرم اطلاعات مشتری -->
+    <div class="col-md-7">
+      <div class="card p-4 shadow-sm" style="border:1px solid #B762B7;background-color: #F0E3F6; border-radius:20px;">
+        <h5 class="mb-3" style="color: #862C92;">اطلاعات مشتری</h5>
+        <form>
+          <div class="mb-3">
+            <label class="form-label">نام و نام خانوادگی</label>
+            <input type="text" class="form-control" required style="border-radius: 20px;">
+          </div>
+          <div class="mb-3">
+            <label class="form-label">شماره تماس</label>
+            <input type="tel" class="form-control" required style="border-radius: 20px;">
+          </div>
+          <div class="mb-3">
+            <label class="form-label">آدرس ایمیل</label>
+            <input type="email" class="form-control" style="border-radius: 20px;">
+          </div>
+          <div class="mb-3">
+            <label class="form-label">آدرس کامل</label>
+            <textarea class="form-control" rows="3" required style="border-radius: 20px;"></textarea>
+          </div>
+          <div class="mb-3">
+            <label class="form-label">کد پستی</label>
+            <input type="text" class="form-control" style="border-radius: 20px;">
+          </div>
+          <div class="mb-3">
+            <label class="form-label">روش پرداخت</label>
+            <select class="form-select" style="border-radius: 20px;">
+              <option selected>انتخاب کنید...</option>
+              <option>پرداخت آنلاین</option>
+              <option>پرداخت در محل</option>
+            </select>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!-- خلاصه سفارش -->
+    <div class="col-md-5">
+      <div class="card p-4 shadow-sm" style="border:1px solid #B762B7;background-color: #F0E3F6;border-radius: 20px;">
+        <h5 class="mb-3" style="color: #862C92;">خلاصه سفارش</h5>
+        <ul class="list-group mb-3">
+          <li class="list-group-item d-flex justify-content-between">
+            <span>جمع کل محصولات</span>
+            <span>120,000 تومان</span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between">
+            <span>هزینه ارسال</span>
+            <span>15,000 تومان</span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between">
+            <span>تخفیف</span>
+            <span>5,000 تومان</span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between">
+            <strong>مبلغ نهایی</strong>
+            <strong>130,000 تومان</strong>
+          </li>
+        </ul>
+        <button class="btn btn-primary w-100" style="background-color: #B762B7; border-radius: 20px;border: 2px solid #B762B7;">ثبت سفارش</button>
+      </div>
+    </div>
+  </div>
+</div>
+ <button id="scrollTopBtn" class="btn  rounded-circle shadow" style="color: #B762B7;">
+  <i class="fas fa-arrow-up"></i>
+</button>
+<footer>
+  <div class="footer-container">
+    <!-- درباره ما -->
+    <div class="footer-section">
+      <h6>درباره ما</h6>
+      <p>شمع نورا با عشق ساخته شده تا گرمایی خاص به خانه‌ی شما ببخشد.</p>
+    </div>
+    <!-- دسترسی سریع -->
+    <div class="footer-section">
+      <h6>دسترسی سریع</h6>
+      <ul>
+        <li><a href="Main_ page.html">خانه</a></li>
+        <li><a href="product - Copy.html">محصولات</a></li>
+        <li><a href="about.html">درباره ما</a></li>
+        <li><a href="#">تماس با ما</a></li>
+      </ul>
+    </div>
+    <!-- شبکه‌های اجتماعی -->
+    <div class="footer-section">
+      <h6>ما را دنبال کنید</h6>
+      <div class="social-icons">
+        <a href="#"><i class="bi bi-instagram"></i></a>
+        <a href="#"><i class="bi bi-telegram"></i></a>
+        <a href="#"><i class="bi bi-twitter-x"></i></a>
+        <a href="#"><i class="bi bi-linkedin"></i></a>
+      </div>
+    </div>
+  </div>
+  <hr>
+  <div class="copyright">
+    © 2025 تمامی حقوق متعلق به شمع نورا می‌باشد.
+  </div>
+</footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+   <script>
+    const scrollTopBtn = document.getElementById("scrollTopBtn");
+
+    window.onscroll = function () {
+      if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+        scrollTopBtn.style.display = "block";
+      } else {
+        scrollTopBtn.style.display = "none";
+      }
+    };
+    scrollTopBtn.addEventListener("click", function () {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+  </script>
+</body>
+</html>
